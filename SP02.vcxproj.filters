@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\structures">
+      <UniqueIdentifier>{7dc27ab5-005f-40a6-ace2-fb48ca4f5e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures">
+      <UniqueIdentifier>{cf10372d-6c5e-4d1a-a61a-323e44697a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kriteria">
+      <UniqueIdentifier>{57eac099-9771-4b94-9af0-cd3a19490de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\filtre">
+      <UniqueIdentifier>{164479eb-e3dc-4995-ac62-ca6614b190e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\komparatory">
+      <UniqueIdentifier>{9e2591be-debf-4d54-871e-951e4d819755}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\unsorted_sequence_table.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_routines.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\heap_monitor.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\memory_routines.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Oblast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZaznamOblast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumPrislusnost.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUcast.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumNazov.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumVolici.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumVydaneObalky.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumOdovzdaneObalky.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumOdovzdaneHlasy.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="Kraj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Okres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Obec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\table.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sequence_table.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter_2.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter_1.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterNazov.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterVolici.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUcast.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\heap_sort.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Komparator.h">
+      <Filter>Header Files\komparatory</Filter>
+    </ClInclude>
+    <ClInclude Include="Komparator_Volici.h">
+      <Filter>Header Files\komparatory</Filter>
+    </ClInclude>
+    <ClInclude Include="Komparator_Nazov.h">
+      <Filter>Header Files\komparatory</Filter>
+    </ClInclude>
+    <ClInclude Include="Komparator_Ucast.h">
+      <Filter>Header Files\komparatory</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\sort.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Kandidat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium_KandidatiHlasy.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMeno.h">
+      <Filter>Header Files\filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumMeno.h">
+      <Filter>Header Files\kriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="Komparator_ZiskaneHlasy.h">
+      <Filter>Header Files\komparatory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="structures\ds_routines.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\memory_routines.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZaznamOblast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Oblast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Okres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Obec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\table\sorting\sort.cpp">
+      <Filter>Header Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Kandidat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis">
+      <Filter>Source Files</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
